@@ -28,7 +28,7 @@ class ConvertToSnakeCase extends TransformsRequest
      * @param  array $data
      * @return array
      */
-    protected function cleanArray(array $data)
+    protected function cleanArray(array $data, $keyPrefix = '')
     {
         $parameters = [];
 
